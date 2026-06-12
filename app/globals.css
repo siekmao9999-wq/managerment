@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-kantumruy: var(--font-kantumruy), system-ui, -apple-system, sans-serif;
+  --color-primary: #4f46e5;
+  --color-secondary: #7c3aed;
+}
+
+:root {
+  --font-kantumruy: 'Kantumruy Pro', var(--font-kantumruy), sans-serif;
+}
+
+body {
+  font-family: var(--font-kantumruy);
+  background-color: #0b0f19;
+  letter-spacing: -0.01em;
+}
+
+/* Custom premium scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.5);
+}

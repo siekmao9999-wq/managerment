@@ -1,0 +1,11 @@
+{
+  "name": "SecureAttend",
+  "description": "Multi-tenant employee attendance and HR payroll system for schools and companies in Cambodia. Features GPS geofencing, AI face recognition, QR, and NFC checks, with high-quality Khmer translation and an elegant violet-indigo dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
